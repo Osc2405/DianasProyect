@@ -2,4 +2,4 @@ pandas
 Flask
 Flask-Compress
 Flask-SQLAlchemy
-dotenv
+python-dotenv
