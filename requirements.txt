@@ -3,3 +3,6 @@ Flask
 Flask-Compress
 Flask-SQLAlchemy
 python-dotenv
+Faker
+cryptography
+openpyxl
