@@ -104,3 +104,39 @@ def ranking4():
 def rankingGeneral():
     if request.method=="GET":
         return render_template("rankingGeneral.html")
+
+@global_scope.route("/about",methods=["GET","POST"])
+def about():
+    return render_template("about.html")
+
+@global_scope.route("/contact",methods=["GET","POST"])
+def contact():
+    return render_template("contact.html")
+
+@global_scope.route("/courses",methods=["GET","POST"])
+def courses():
+    return render_template("courses.html")
+
+@global_scope.route("/gallery",methods=["GET","POST"])
+def gallery():
+    return render_template("gallery.html")
+
+@global_scope.route("/instructors",methods=["GET","POST"])
+def instructors():
+    return render_template("instructor.html")
+
+@global_scope.route("/login",methods=["GET","POST"])
+def login():
+    return render_template("login.html")
+
+@global_scope.route("/register",methods=["GET","POST"])
+def register():
+    return render_template("register.html")
+
+@global_scope.route("/news",methods=["GET","POST"])
+def news():
+    return render_template("news.html")
+
+@global_scope.route("/events",methods=["GET","POST"])
+def events():
+    return render_template("events.html")
